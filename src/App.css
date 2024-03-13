@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;600;700&family=Poppins:wght@500;600;700;800&family=Rufina:wght@400;700&family=Work+Sans:wght@400;500&display=swap");
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --drop-down-bg-color: whitesmoke;
+    --main-bg-color: #C9EDFF;
+    --text-color: #050748;
+    --para-color: #8585A1;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html,
+body {
+    font-size: 62.5%;
+    font-family: "Work Sans", sans-serif;
+    overflow-x: hidden;
+}
+
+.button {
+    --bg: #000;
+    --hover-bg: #ff90e8;
+    --hover-text: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+}
+
+.button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.button:active {
+    transform: translate(0);
+    box-shadow: none;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #7bc8ea;
+    /* border-radius: 10px; */
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #183072;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0e162c;
+}
+
+:root {
+    --bg-color: #16213E;
+    --element-color: #0F3460;
+}
+
+
+@media screen and (max-width:768px) {
+    .small-animation-section .container .animation-1 h2 {
+        background-color: whitesmoke;
+        padding: 8px 32px;
+        width: 500px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+
+    .topservices-section::after {
+
+        height: 100%;
+
+    }
+
+    .circle-animation .container .left {
+        width: 100%!important;
+        height: auto!important;
+    }
+
+    .circle-animation .container .right {
+        width: 100%!important;
+        height: auto!important;
+
+    }
+    .circle-animation .container .left h2 {
+        font-size: 3rem!important;
+    }
+
+    .dgmt_down_container {
+
+        gap: 2rem;
+
+    }
+    .dgmt-about .dgmt-container-about .dgmt-about-right .about-img-box {
+        width: auto!important;
+        height: auto!important;
+  
+    }
+    .dgmt-about .dgmt-container-about .dgmt-about-right .about-img-box .about-main-img {
+        width: 100%!important;
+        height: 100%!important;
+
+    }
+
+    .circle-animation .container {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+
+    #services .container .services-box .services-content-box-same .same-col {
+
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: blur(0px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .callback-dgmt-container {
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: blur(0px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .topservices-section .container .services-content-row .same-col {
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: blur(0px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+
+    .dgmt-about h4 {
+        font-size: 3rem!important;
+        margin-left: 1.2rem!important;
+    
+    }
+    .dgmt-about .dgmt-container-about .dgmt-about-same .about-hading h2 {
+        font-size: 2rem!important;
+        width: 86%!important;
+        
+    }
+    .dgmt-about .dgmt-container-about {
+  
+        padding: 2rem 0.2rem!important;
+       width: 100%;
+    }
+    .dgmt-about .dgmt-container-about .dgmt-about-same .about-hading p {
+       
+        font-size: 1.6rem!important;
+        width: 84%!important;
+    }
+}
+
+@media screen and (max-width:1220px){
+    .gallery-container {
+        /* display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 20px; */
+        flex-direction: column;
+        gap: 70px;
+        padding-top: 50px !important;
+    }
+}
+
+@media screen and (max-width:755px) {
+    .image-gallery img {
+        max-width: 100% !important;
+        height: 350px !important;
+    }
+
+    .image-gallery {
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}

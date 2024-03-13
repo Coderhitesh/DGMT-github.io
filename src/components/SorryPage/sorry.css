@@ -1,0 +1,20 @@
+#wrapper {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    height: 50vh;
+  }
+  
+  .sad-emoji {
+    font-size: 3em;
+  }
+  
+  .sorry-message {
+    font-size: 6.5em;
+    margin-top: 10px;
+    color: #555; /* Adjust the color as needed */
+  }
+  

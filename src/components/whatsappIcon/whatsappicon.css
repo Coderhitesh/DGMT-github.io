@@ -1,0 +1,12 @@
+.whatsapp-icon{
+    position: absolute;
+    left: 30%;
+    bottom: 20%;
+    z-index: 9999;
+}
+
+.whatsapp-icon i{
+    font-size: 35px;
+    color: green;
+    
+}

@@ -1,0 +1,47 @@
+.form-section{
+    width: 100%;
+    padding: 10px;
+    
+    background-color: #EFFDFF;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.form-section form{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-section form .same-input{
+    width: 100%;
+    height: 35px;
+}
+
+.form-section form input{
+    width: 100%;
+    height: 100%;
+    padding: 3px 10px;
+    outline: none;
+}
+
+.form-section form .message-input{
+    width: 100%;
+    height: 50px;
+}
+
+.form-section form button{
+    height: 35px;
+    width: 100%;
+    background-color: rgb(254, 211, 218);
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}

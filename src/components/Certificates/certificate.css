@@ -1,0 +1,32 @@
+/* certificate.css */
+
+.Dgmt-certificate {
+    text-align: center;
+    margin: 20px;
+    min-height: 100vh;
+  }
+  
+  .Dgmt-certificate h2 {
+    color: #333;
+    font-size: 28px;
+  }
+  
+  .dgmt_conatiner_certificates {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .certificate-image {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .certificate-image img {
+    width: 100%;
+    height: auto;
+  }
+  

@@ -1,0 +1,490 @@
+.graphics-section {
+    width: 100%;
+
+}
+
+.graphics-section .container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.graphics-section .container .up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.graphics-section .container .left-container {
+    width: 63%;
+}
+
+.graphics-section .container .left-container .img {
+    height: 480px;
+    position: relative;
+}
+
+.graphics-section .container .left-container .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.graphics-section .container .left-container .img .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background-color: rgba(0, 0, 0, 0.419);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.graphics-section .container .left-container .img .content h1 {
+    font-size: 4rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.graphics-section .container .left-container .img .content p {
+    font-size: 2rem;
+    color: white;
+    width: 70%;
+    text-align: center;
+}
+
+.graphics-section .container .left-container .about-graphics {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.graphics-section .container .left-container .about-graphics .heading {
+    position: relative;
+}
+
+.graphics-section .container .left-container .about-graphics .heading img {
+    width: 85%;
+    height: 100px;
+}
+
+.graphics-section .container .left-container .about-graphics .heading h2 {
+    position: absolute;
+    left: 3%;
+    top: 32%;
+    font-size: 3rem;
+    color: white;
+}
+
+.graphics-section .container .left-container .about-graphics p {
+    font-size: 1.8rem;
+}
+
+.graphics-section .container .left-container .list-about-graphics {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.graphics-section .container .left-container .list-about-graphics p {
+    font-size: 2rem;
+}
+
+.graphics-section .container .left-container .list-about-graphics ul {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.graphics-section .container .left-container .list-about-graphics ul li {
+    font-size: 1.7rem;
+}
+
+.graphics-section .container .left-container .list-about-graphics ul li span {
+    font-weight: 700;
+    font-size: 2rem;
+    font-variant: small-caps;
+}
+
+
+
+.graphics-section .container .right-container {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.graphics-section .container .right-container .popular-section {
+    width: 100%;
+    background-color: #EFFDFF;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.graphics-section .container .right-container .popular-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(45, 45, 45, 0.214);
+    padding: 10px;
+}
+
+.graphics-section .container .right-container .popular-section .all-services {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.graphics-section .container .right-container .popular-section .all-services .service-same {
+    height: 60px;
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+}
+
+.graphics-section .container .right-container .popular-section .all-services .service-same img {
+    width: 20%;
+}
+
+.graphics-section .container .right-container .popular-section .all-services .service-same p {
+    font-size: 18px;
+    color: black;
+}
+
+.graphics-section .container .right-container .tag-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(45, 45, 45, 0.214);
+    padding: 10px;
+}
+
+.graphics-section .container .right-container .tag-section {
+    width: 100%;
+
+    background-color: #EFFDFF;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.graphics-section .container .right-container .tag-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(45, 45, 45, 0.214);
+    padding: 10px;
+}
+
+.graphics-section .container .right-container .tag-section .all-tag {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.graphics-section .container .right-container .tag-section .all-tag a {
+    padding: 5px;
+    font-size: 1.6rem;
+    color: black;
+    background-color: white;
+}
+
+@media (max-width:910px) {
+    .graphics-section .container .up {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .graphics-section .container .left-container {
+        width: 100%;
+    }
+
+    .graphics-section .container .right-container {
+        width: 100%;
+    }
+}
+
+@media (max-width:410px) {
+    .graphics-section .container .left-container .about-graphics h2 {
+        text-align: start;
+    }
+
+    .graphics-section .container .left-container .about-graphics p {
+        text-align: start;
+    }
+
+    .graphics-section .container .left-container .list-about-graphics p {
+        text-align: start;
+    }
+
+
+    .graphics-section .container .left-container .list-about-graphics ul li {
+        text-align: start;
+    }
+
+    .graphics-section .container {
+        padding: 40px 50px;
+    }
+
+
+    .graphics-section .container .left-container .img .content h1 {
+        font-size: 3.5rem;
+    }
+
+    .graphics-section .container .left-container .img .content p {
+        font-size: 1.7rem;
+    }
+}
+
+
+.graphics-section .container .down .pricing{
+    width: 100%;
+}
+
+.graphics-section .container  .down .pricing .prices-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.graphics-section .container .down .pricing .prices-container .col-same {
+    width: 23%;
+    box-shadow: 0 10px 15px 0px rgb(0 23 46 / 7%) !important;
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.graphics-section .container .down .pricing .prices-container .col-same .package-name {
+    padding: 30px 0 24px 20px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.graphics-section .container .down .pricing .prices-container .col-1 .package-name {
+    background-color: #F8F8FF;
+}
+
+.graphics-section .container .down .pricing .prices-container .col-2 .package-name {
+    background-color: #E9E9FF;
+}
+
+.graphics-section .container .down .pricing .prices-container .col-3 .package-name {
+    background-color: #F8F8FF;
+}
+
+.graphics-section .container .down .pricing .prices-container .col-4 .package-name {
+    background-color: #E9E9FF;
+}
+
+
+.graphics-section .container .down .pricing .prices-container .col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.graphics-section .container .down .pricing .prices-container .col-same .package-name h3 {
+    font-size: 2.1rem;
+}
+
+.graphics-section .container .down .pricing .prices-container .col-same .package-name span {
+    font-size: 1.5rem;
+}
+
+.graphics-section .container .down .pricing .prices-container .col-same .package-price {
+    padding: 30px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.graphics-section .container .down .pricing .prices-container .col-same .package-price h2 {
+    font-size: 3rem;
+    display: flex;
+    gap: 5px;
+}
+
+.graphics-section .container .down .pricing .prices-container .col-same .package-price span {
+    font-size: 1.5rem;
+    color: var(--para-color);
+}
+
+.graphics-section .container .down .pricing .prices-container .col-same .package-services {
+    overflow-y: scroll;
+    max-height: 310px;
+    height: 310px;
+    padding: 20px;
+    background-color: #f8f8ff;
+    margin: 30px 20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 14px 0px 0px 14px;
+    height: 200px;
+}
+
+.graphics-section .container .down .pricing .prices-container .col-same .package-services ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.graphics-section .container .down .pricing .prices-container .col-same .package-services ul li {
+    font-size: 1.4rem;
+    color: var(--para-color);
+    position: relative;
+}
+
+.graphics-section .container .down .pricing .prices-container .col-same .package-order {
+    padding: 0 20px;
+}
+
+.graphics-section .container .down .pricing .prices-container .col-same .package-order a {
+    font-size: 1.4rem;
+
+}
+
+         
+         
+.btn-grad-1 {
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad-1:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ 
+
+         
+.btn-grad-2 {
+    background-image: linear-gradient(to right, #4CB8C4 0%, #3CD3AD  51%, #4CB8C4  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad-2:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+
+.btn-grad-4 {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad-4:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+         
+.btn-grad-3 {
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad-3:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+
+  .graphics-section .container .down .pricing .prices-container .col-same .contact-for-package {
+    margin-top: 30px;
+    background: #f8f8ff;
+    padding: 10px 20px;
+}
+
+.graphics-section .container .down .pricing .prices-container .col-same .contact-for-package a {
+    font-size: 1.3rem;
+    color: var(--para-color);
+
+}
+
+
+@media (max-width:1165px) {
+    .graphics-section .container  .down .pricing .prices-container {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .graphics-section .container .down .pricing .prices-container .col-same {
+        width: 48%;
+    }
+}
+
+@media (max-width:615px) {
+    
+    .graphics-section .container .down .pricing .prices-container .col-same {
+        width: 100%;
+    }
+}
+
